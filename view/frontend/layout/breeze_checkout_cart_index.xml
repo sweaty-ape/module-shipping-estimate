@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <body>
+    <referenceContainer name="checkout.cart.shipping.fields">
+      <block class="Magento\Framework\View\Element\Template"
+             name="checkout.cart.shipping.fields.city" 
+             template="SweatyApe_ShippingEstimate::checkout/cart/shipping/city.phtml"
+             after="checkout.cart.shipping.fields.region"/>
+    </referenceContainer>
+  </body>
+</page>
